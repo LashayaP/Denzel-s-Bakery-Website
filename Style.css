@@ -1,0 +1,66 @@
+/* Gives website a creme colored background */
+body {
+  background-color:#FCFBF4;
+}
+
+/* Makes all the words in the paragraphs the color black, size 13px, and a sans-serif font */
+p {
+  color: black;
+  font-family:sans-serif;
+  font-size:15px;
+}
+
+/* Makes all h1 tags bold cursive letters with a 5px letter spacing and pastel blue color */
+h1 {
+  font-weight: bold;
+  color:#a4c7e3;
+  font-family:cursive;
+  letter-spacing: 5px;
+}
+
+/* Gives all h2 tags A 2px letter spacing, a cursive font, and a pastel blue color */
+h2 { 
+  color:#a4c7e3;
+  font-family:cursive;
+  letter-spacing: 2px;
+}
+
+/* Gives all h3 tags a pastel blue color and a cursive font */
+h3 {
+  color:#a4c7e3;
+  font-family:cursive;
+}
+
+/* Gives all the h4 tgas a pastel blue color and a cursive font */
+h4{
+  color:#a4c7e3;
+  font-family:cursive;
+}
+
+/* Gives all images a size of 250px. Makes it so that it's on the right side of each recipe, and has a groove border style */
+img {
+  width: 200px;
+  float:right;
+  border-style: groove; 
+}
+
+/* Gives all the lists a fantasy font */
+li {
+  font-family: fantasy;
+}
+
+.gallery {
+  display: flex;
+}
+
+.image-card {
+  padding: 2%;
+  width: 30%;
+  flex-grow: 1;
+  
+}
+
+.info {
+  width:95%;
+  align-content: center;
+}
